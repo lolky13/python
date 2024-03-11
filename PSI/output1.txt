@@ -1,0 +1,4789 @@
+
+
+Running test 1
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Tohle je maly krok pro robota, ale velky krok pro studentstvo!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 2
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "4\a\b" ... OK
+	Receiving packet: "60077\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "12345\a\b" ... OK
+	Receiving packet: "300 LOGIN FAILED\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 3
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "5\a\b" ... OK
+	Receiving packet: "303 KEY OUT OF RANGE\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 4
+
+	Opening connection ... OK
+	Sending data: "\a\a\0\b\b\a\0\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "60019\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "3501\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 0\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Robot je dobry sluha, ale zly pan!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 5
+
+	Opening connection ... OK
+	Sending data: "Oom" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "pa " ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "Loo" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "mpa" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.4 seconds... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... 	Checking packet ... OK
+	Sending data: "0" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.4 seconds... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "83" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "89" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.4 seconds... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 3\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 2\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Kde nic neni, ani robot nebere.\a" ... OK
+	Waiting for 0.4 seconds... OK
+	Sending data: "\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 6
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b2\a\b55491\a\bOK 2 3\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Receiving packet: "60677\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 0\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "42\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 7
+
+	Opening connection ... OK
+	Sending data: "Oomp" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "a Lo" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "ompa" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "\a\b3\a" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "\b588" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "5\a\bO" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "K 2 " ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "3\a\b" ... OK
+	Waiting for 0.3 seconds... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Receiving packet: "58331\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 2\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Darovanemu robotu na obvody nekoukej!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 8
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "4\a\b" ... OK
+	Receiving packet: "60077\a\b" ... OK
+	Checking confirmation from server ... OK
+	Waiting for 2 seconds... OK
+	Checking properly closed connection... OK
+
+
+Running test 9
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "3\a\b" ... OK
+	Receiving packet: "58331\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "58" ... OK
+	Waiting for 2 seconds... OK
+	Checking properly closed connection... OK
+
+
+Running test 10
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Jak se na loopback vola, tak se z loopbacku ozyva!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 11
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -8 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -7 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 4\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -6 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -5 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 4\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 3\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -4 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -3 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 3\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 2\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -2 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Kdo se boji, nesmi na FIT!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 12
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Kdo se smeje naposled, ten ma dlouhe vedeni!\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 13
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 10 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 10 -10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 10 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 11 -10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 11 -10\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 11 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 10 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -10\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -10\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -9\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -9\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -9\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -4\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK -1 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Buh je realny, pokud nebyl deklarovan jako integer.\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 14
+
+	Opening connection ... OK
+	Sending data: "xiQvP1cXt)B$SWY)/ts\a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 15
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "baf\a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 16
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "3\a\b" ... OK
+	Receiving packet: "58331\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "5885 \a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 17
+
+	Opening connection ... OK
+	Sending data: "Haf\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "2\a\b" ... OK
+	Receiving packet: "27645\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "224591\a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 18
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "OK 0 0.1\a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 19
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "OK 0 0 \a\b" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 20
+
+	Opening connection ... OK
+	Sending data: "xiQvP1cXt)B$SWY)/ts\a" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 21
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "xiQvP1cXt)B$SWY)/ts]h4u6mi+QhTz|YN0+_sdU|BskyN1ED&>.UO^D;j1?@.=z\x5cMAWB'.[d#H_kY@1z_Yk0:1e@B&`jCvHp:;\a" ... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 22
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "OK -2 -3 \a\a\a\a\a\a\a\a\a" ... OK
+	Waiting for 0.2 seconds... OK
+	Receiving packet: "301 SYNTAX ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 23
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 3 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Jakou IP ma Pavlov?\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 24
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 6 seconds... OK
+	Checking properly closed connection... OK
+
+
+Running test 25
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "PSI, kteri stekaji, nekousou.\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 26
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "FULL POWER\a\b" ... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "Kam cert nemuze, tam nastrci Javu.\a\b" ... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 27
+
+	Opening connection ... OK
+	Sending data: "Oompa Loompa\a\b" ... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Sending data: "8389\a\b" ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "RECHARGING\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "302 LOGIC ERROR\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 28
+
+	Running 3 simultaneous threads ... OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: OK
+	Sending data: "0\a\b" ... OK
+	Receiving packet: OK
+	Sending data: "0\a\b" ... "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: OK
+	Sending data: "8389\a\b" ... "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: OK
+	Sending data: "8389\a\b" ... "64907\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: OK
+	Sending data: "8389\a\b" ... "200 OK\a\b" ... OK
+	Checking packet ... OK
+OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Waiting for 	Waiting for 0.50.5 seconds...  seconds... "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Waiting for 0.5 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+OK	Checking packet ... OK
+	Executing command... OK
+
+	Receiving packet: 	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OKOK
+	Sending data: "OK 9 -8\a\b" ... OK
+
+	Receiving packet: 	Receiving packet: ""102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... 	Sending data: "OK
+OK 9 -8\a\b	Sending data: "" ... OK 9 -8\a\b" ... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+OK	Executing command... OK
+	Sending data: "
+	Receiving packet: OK 9 -8\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"	Sending data: "OK 9 -8\a\b" ... 103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 9 -8\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... 	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 8 -8\a\b" ... OK
+	Receiving packet: OK
+"	Receiving packet: 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... "104 TURN RIGHT\a\b" ... OK	Sending data: "OK 7 -7\a\b" ... 
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -8\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+"	Checking packet ... 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Executing command... OK
+	Receiving packet: OK
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... 	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Receiving packet: 	Sending data: "OK 7 -7\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 6 -7\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 7 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK	Sending data: "
+OK 6 -7\a\b	Receiving packet: " ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... "OK
+	Receiving packet: OK
+104 TURN RIGHT\a\b	Receiving packet: " ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -7\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: 	Sending data: "OK 5 -6\a\b" ... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Receiving packet: 	Sending data: "OK 5 -6\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK	Receiving packet: 
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -6\a\b" ... 	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... 	Sending data: "OK 5 -6\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 4 -6\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... 	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "OK
+102 MOVE\a\b	Receiving packet: " ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+"	Receiving packet: 103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -6\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Receiving packet: 	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 3 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 2 -5\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 1 -5\a\b" ... 	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -4\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -5\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+"	Checking packet ... 102 MOVE\a\b" ... OKOK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... 
+	Executing command... OK
+	Sending data: "OK 0 -3\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"	Sending data: "102 MOVE\a\bOK 0 -4\a\b" ... " ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: OK
+	Executing command... OK
+"	Sending data: "OK 0 -3\a\b" ... 105 GET MESSAGE\a\b" ... OK
+	Waiting for OK
+	Receiving packet: 0.5 seconds... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -2\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 -1\a\b" ... OK
+"	Receiving packet: 105 GET MESSAGE\a\b" ... OK
+	Waiting for 0.5 seconds... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK 0 0\a\b" ... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Waiting for 0.5 seconds... OK
+	Sending data: "Tohle je maly krok pro robota, ale velky krok pro studentstvo!\a\b" ... OK
+	Receiving packet: OK
+	Sending data: "Tohle je maly krok pro robota, ale velky krok pro studentstvo!\a\b" ... OK
+	Receiving packet: OK
+	Sending data: "Tohle je maly krok pro robota, ale velky krok pro studentstvo!\a\b" ... OK
+	Receiving packet: ""106 LOGOUT\a\b" ... OK106 LOGOUT\a\b
+" ... OK	Checking packet ... OK
+	Checking properly closed connection... 
+	Checking packet ... OK
+	Checking properly closed connection... OK
+OK
+"106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+OK
+
+
+
+Running test 29
+
+	Opening connection ... OK
+	Sending data: ";`*" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "g7H" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "3BW" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: " w/" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "%7%" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "N\a\b" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "1\a\b" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "167" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "19\a" ... OK
+	Waiting for 0.3 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.3 seconds... OK
+	Receiving packet: "107 KEY REQUEST\a\b" ... OK
+	Checking key ID request... OK
+	Receiving packet: "19461\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 3\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "2\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-10" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-8 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-8 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-8 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "7 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "2" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "&Z" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\"e" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "," ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "T" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "[+" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+
+Running test 30
+
+OK
+	Receiving packet: "38317\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "38317\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-11" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "10 " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "11" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "38317\a\b" ... OK
+	Checking confirmation from server ... OK
+	Receiving packet: "200 OK\a\b" ... OK
+	Checking packet ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "11 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "11 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-4\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -4" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "8" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "11 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -4" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "8" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "\a" ... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "K -OK" ... 
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "11 " ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "OK " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "7 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Sending data: "-3 " ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "4\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "-8\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+OK
+	Sending data: "	Executing command... \b" ... OK
+	Sending data: "O" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Receiving packet: OK
+	Waiting for "102 MOVE\a\b" ... OK
+0.1 seconds... 	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0 " ... OK
+	Waiting for OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3\a\b" ... OK
+	Sending data: "8" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "\a\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "0.1 seconds... OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Sending data: " " ... 	Sending data: "OK
+	Waiting for OK" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-9 " ... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+OK	Sending data: "
+	Sending data: "3" ... 3" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK\a\b" ... 
+	Sending data: " " ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "7" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Sending data: "OK
+	Waiting for 0.1 seconds... -8" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Sending data: "OK
+	Waiting for 0.1 seconds... \a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 3\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-7" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for OK
+	Sending data: "3" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Sending data: "-7" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "9" ... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK
+ 3\a" ... 	Sending data: "\b" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+OK	Sending data: "\b" ... 
+	Receiving packet: OK"
+	Waiting for 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+0.1 seconds... 	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "-" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-7" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -6" ... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: "9" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 2\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OKK -" ... 
+	Receiving packet: OK
+	Waiting for 0.1 seconds... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -9" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-6" ... OK
+	Sending data: "OK1\a" ... 
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Receiving packet: ""102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "104 TURN RIGHT\a\bOK " ... " ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+OK	Sending data: " -" ... 
+	Sending data: "-9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3 " ... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6\a" ... OK
+OK
+	Waiting for 	Sending data: "\b0.1" ...  seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Receiving packet: OK
+	Waiting for 0.1 seconds... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "9 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "2 -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Receiving packet: OK
+	Waiting for "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK0.1 seconds... 
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-5" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+OK
+	Waiting for 	Sending data: " " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -2" ... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: "OK
+	Waiting for 8" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for OK
+	Sending data: " " ... OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6\a\b" ... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OKOK
+
+	Sending data: "\a\b	Sending data: "" ... O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OKOK
+	Waiting for 
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -3" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "2 -" ... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Sending data: "7" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: " 0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -2" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "OK " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Sending data: "-2" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "6" ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a" ... OK
+	Sending data: "-5" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... 	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Receiving packet: OK
+	Waiting for "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+0.1 seconds... 	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+OK
+	Sending data: " -5" ... 	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0\a" ... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK\b" ... 
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "2 -" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Sending data: "OKK" ... 
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-5 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: " -5" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK\b" ... 
+	Sending data: " 0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "\b" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-5 " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "K" ... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "2" ... OK
+	Sending data: "-5 " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -4" ... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "5" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Receiving packet: OK
+	Waiting for "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+0.1	Executing command...  seconds... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "OK
+104 TURN RIGHT\a\b	Sending data: " " ... " ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK-5" ... 
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 1\a" ... OK
+	Sending data: " -" ... OK
+	Waiting for OK
+	Receiving packet: 0.1 seconds... OK
+	Waiting for "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+0.1 seconds... 	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "-5 " ... OK
+	Sending data: "2 " ... OK
+	Waiting for OK0.1 seconds... 
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+OKOK
+	Sending data: "
+	Sending data: "1" ... 	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+-" ... OK
+	Waiting for 	Sending data: "OK " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK\a\b" ... 
+	Sending data: "-" ... OK
+	Sending data: "4\a\b" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Receiving packet: 	Sending data: "5" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+OK
+	Waiting for 	Checking packet ... OK
+	Executing command... OK
+0.1 seconds... 	Sending data: "OK" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 0.1 seconds... 	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: " " ... OKOK
+	Waiting for 
+0.1 seconds... 	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Sending data: "	Sending data: "-5 " ... OK
+	Sending data: "1 " ... 1\a\b" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Receiving packet: OK
+	Sending data: "-4\a" ... 	Sending data: "0" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... 	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OKOK
+	Waiting for 
+0.1 seconds... 	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... "102 MOVE\a\b" ... OK
+OK
+	Waiting for 	Checking packet ... 0.1 seconds... OK
+	Executing command... OK
+OK
+	Sending data: " -" ... 	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+OK
+	Sending data: "4" ... 	Sending data: "K " ... OK
+	Sending data: "0" ... OKOK
+	Waiting for 
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OKOK
+
+OK	Sending data: "
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds...  " ... 	Sending data: "-5" ... OK
+	Waiting for OK
+0.1 seconds... 	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Sending data: "1" ... OK
+	Sending data: " 0\aOK" ... 
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Sending data: "\a" ... 	Sending data: "\b" ... OKOK
+	Waiting for 
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Sending data: "\b" ... 	Receiving packet: "102 MOVE\a\b" ... OK
+OK	Checking packet ... 
+OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "OK " ... 	Sending data: "\a" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "-" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Sending data: "OK\b" ... 
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3" ... OK
+	Sending data: "4 0" ... OKOK
+	Waiting for OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+
+	Sending data: "OK " ... 	Waiting for OK
+0.1	Waiting for  seconds... 0.1 seconds... 0.1 seconds... OKOK
+	Sending data: "\a\b" ... OK
+	Sending data: "0" ... 
+	Sending data: " 1" ... OK
+	Waiting for OK
+0.1 seconds... 	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK"
+	Sending data: " " ... OK
+	Sending data: "\a" ... 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Waiting for OK
+OK
+	Waiting for 0.1 seconds... 0.1 seconds... 	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OKOK
+	Sending data: "\b" ... OK
+
+	Sending data: "-4" ... 	Sending data: "K" ... OK
+OKOK
+	Waiting for 
+	Waiting for 	Waiting for 0.1 seconds... 0.10.1 seconds...  seconds... OK
+	Sending data: "OK\a\b" ... 
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+OK	Checking packet ... OK
+	Executing command... OK
+
+	Sending data: " " ... 	Sending data: "O" ... OK
+	Waiting for OK
+0.1 seconds... 	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+OK
+	Waiting for 	Sending data: "OK-" ... 0.1 seconds... 
+	Sending data: "K " ... OK
+	Waiting for OK0.1 seconds... 
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: "3" ... OK
+	Sending data: "-" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Sending data: " 0" ... OK
+	Waiting for OK0.1 seconds... OK
+	Waiting for 0.1 seconds... 
+	Sending data: "3 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Sending data: "\a" ... OK
+	Sending data: "\a\b" ... OK
+	Waiting for OK
+0.1	Waiting for  seconds... OK
+0.1	Waiting for  seconds... 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+0.1 seconds... 	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "OK102 MOVE\a\b
+" ... OK	Sending data: "-3" ... OK
+	Waiting for 0.1
+ seconds... 	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK
+ 	Sending data: "0" ... " ... OK
+	Waiting for OK
+	Sending data: " " ... OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... 0.1 seconds... OK
+	Sending data: "0 -" ... OK
+	Sending data: "\a\b" ... OKOK
+
+OK
+	Waiting for 	Sending data: "-3" ... 	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Receiving packet: OK
+	Waiting for OK0.1 seconds... 
+	Sending data: " 0\a" ... OK
+	Waiting for "0.1 seconds... 103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "O" ... OK0.1
+ seconds... 	Sending data: "3 " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "K" ... "OK
+	Sending data: "0" ... 103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+OK	Executing command... OK
+
+OK
+	Waiting for 	Waiting for 0.1 seconds... 	Sending data: "O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OKOK
+	Sending data: " " ... 
+	Sending data: "\a" ... OK
+	Sending data: "K" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+	Sending data: "-3 " ... OK
+	Sending data: "\b" ... OK
+	Sending data: " 0" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: " -" ... OK
+	Sending data: "0" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Sending data: "	Waiting for O" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Sending data: "K " ... OK
+	Waiting for OK
+	Waiting for OK
+	Sending data: "\a" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+OK
+	Sending data: "\b" ... 	Sending data: "\a\b" ... OK
+OK	Waiting for 
+	Sending data: "-" ... OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... 0.1 seconds... OKOK
+	Sending data: "3" ... 
+OK
+	Waiting for OK	Receiving packet: 
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... "OK
+102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... 0.1OK
+	Sending data: "O" ...  seconds... 	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+OK
+OK	Waiting for 
+	Sending data: "K -" ... 	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Sending data: " " ... OK
+OK
+OK
+	Waiting for 	Sending data: "0" ... 0.1 seconds... 	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+	Sending data: "-" ... OK
+	Sending data: " " ... OK
+	Waiting for OK
+	Waiting for OK0.1 seconds... 
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "1 -" ... OK
+OK
+	Sending data: "\b" ... 	Sending data: "1\a\b" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4\a\b" ... OK
+	Receiving packet: OK
+	Waiting for OK
+	Receiving packet: 0.1 seconds... "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+"	Sending data: "O" ... 104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Waiting for 	Sending data: "0.1 seconds... OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for OK
+OK
+	Sending data: " " ... OK
+	Waiting for 0.10.1 seconds...  seconds... 	Sending data: "K " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-3" ... OK
+OK
+	Sending data: "K -" ... 	Sending data: "-3" ... OK
+	Waiting for OKOK
+	Waiting for 0.1 seconds... 
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "OK1 " ... 
+	Sending data: " 1\aOK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+OK	Sending data: "
+	Sending data: "OK
+	Waiting for \b" ... 0.1 seconds... 0OK
+	Waiting for " ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "4" ... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Waiting for OK
+	Sending data: "\a" ... OK
+	Waiting for OK
+0.1 seconds... 	Sending data: "OK" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: " " ... OK
+	Waiting for OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\bOK" ... OK
+	Checking packet ... OK
+	Executing command... 
+	Sending data: "\b" ... OK
+	Sending data: "-" ... OK
+OK
+	Waiting for OK	Sending data: "
+	Waiting for 0.1 seconds... O" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Sending data: "2" ... 	Sending data: "OK" ... OK
+OK
+	Waiting for 0.1 seconds... 	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: " 1\a" ... OK
+	Waiting for OK
+	Sending data: " -" ... 0.1 seconds... OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+OK
+	Sending data: "OK\b" ... 
+	Sending data: "3" ... 	Sending data: "-" ... OK
+	Waiting for OK
+0.1 seconds... 	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+OK
+	Sending data: "1 -" ... 	Receiving packet: OK
+	Sending data: " 1\a" ... OK
+"	Waiting for 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Waiting for OK
+0.1 seconds... 	Sending data: "OK" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "3" ... OK
+OK	Sending data: "
+	Waiting for  -1" ... 0.1 seconds... OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+	Receiving packet: OK
+	Sending data: "\a" ... OK
+	Waiting for "104 TURN RIGHT\a\b" ... OK
+0.1	Checking packet ... OK
+ seconds... 	Executing command... OK
+	Sending data: "OK" ... OK
+	Sending data: " 1" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "OK
+	Sending data: "\a" ... OK
+ -3	Waiting for " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+OK	Checking packet ... OK
+	Executing command... OK
+OK
+	Sending data: "	Sending data: "\b" ... O" ... 
+	Sending data: " 1\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "K " ... OK
+	Sending data: "\b" ... OK
+OK	Receiving packet: 
+"	Waiting for 104 TURN RIGHT\a\b" ... OK
+	Checking packet ... 0.1 seconds... OK
+OK	Executing command... OK
+
+	Waiting for 	Sending data: "OK" ... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Receiving packet: "OK
+OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... 	Waiting for 0.1 seconds... 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1 " ... OK
+	Sending data: "1 " ... OK
+	Waiting for OK
+	Sending data: "K" ... 0.1 seconds... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK
+	Sending data: "2" ... \a" ... OK
+	Sending data: "2 " ... OK
+	Waiting for OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... 0.1 seconds... OKOK
+
+	Sending data: "\b" ... 	Sending data: "OK1\a\b" ... 
+	Sending data: "\a" ... OK
+	Waiting for OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... 0.1 seconds... OK
+OK	Sending data: "\b" ... 
+OK	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... 
+	Waiting for OK
+	Waiting for OK0.1 seconds... 
+	Receiving packet: 0.1 seconds... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Receiving packet: OK
+"	Waiting for 104 TURN RIGHT\a\b" ... OK
+0.1	Checking packet ...  seconds... OK
+	Executing command... OK
+OK
+	Sending data: "K" ... 	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K -" ... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1 " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -2" ... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+OK
+	Receiving packet: 	Sending data: "OK" ... "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Receiving packet: "104 TURN RIGHT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Sending data: "K " ... OK
+OK	Waiting for 
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: " -1" ... OK
+	Waiting for 0.1 seconds... OK
+OK
+	Sending data: "	Sending data: "0 " ... 1 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a" ... OK
+	Sending data: "-2\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\b" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+"	Executing command... OK
+103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Sending data: "	Executing command... OK
+OK" ... 	Sending data: "OK" ... OK
+OK	Waiting for 0.1 seconds... 
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Sending data: "0 " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " -2" ... OK
+	Sending data: "0\a" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " 0" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK"
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "8o" ... 102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OKOK" ... 
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "?\x5c" ... OK
+	Sending data: " 0 " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "103 TURN LEFT\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "-1" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "pq" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "1\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "l" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "O" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "0\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "S" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "K" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "102 MOVE\a\b" ... OK
+	Checking packet ... OK
+	Executing command... OK
+	Sending data: "OK " ... OK
+	Waiting for OK
+	Waiting for 0.10.1 seconds...  seconds... OK
+	Sending data: " " ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "OK$" ... 
+	Sending data: "0 0" ... OK
+	Waiting for OK
+0.1	Waiting for  seconds... 0.1 seconds... OK
+	Sending data: "0" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "\a\b" ... OK
+	Sending data: "W\a" ... OK
+	Waiting for OK
+	Sending data: " 0" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "105 GET MESSAGE\a\b" ... OK
+	Sending data: "pGC" ... OK
+	Sending data: "OK\b" ... 
+	Sending data: "\a\b" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "e" ... OK
+	Receiving packet: OK
+	Waiting for OK"
+	Waiting for 105 GET MESSAGE\a\b" ... OK
+0.1 seconds... 	Sending data: "0.1pGC" ...  seconds... OK
+	Waiting for 0.1 seconds... OKOK
+
+	Waiting for 0.1 seconds... OK
+	Sending data: "eK" ... 	Receiving packet: OK
+	Waiting for 0.1 seconds... "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+OK
+	Sending data: "KC" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "C" ... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "o" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "3" ... OK
+	Sending data: "o3h" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for OK
+	Sending data: "f\a" ... OK
+	Waiting for 0.1 seconds... 0.1 seconds... OK
+	Sending data: "OK\b" ... 
+	Sending data: "h" ... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Waiting for 0.1 seconds... OK
+	Sending data: "f" ... OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: OK
+	Sending data: "\a\b" ... OK
+"106 LOGOUT\a\b" ... OK	Waiting for 
+	Checking packet ... OK
+	Checking properly closed connection... 0.1 seconds... OK
+OK
+	Waiting for 0.1 seconds... OK
+	Receiving packet: "106 LOGOUT\a\b" ... OK
+	Checking packet ... OK
+	Checking properly closed connection... OK
+
+Final results:
+
+	Ideal situation (2 - mandatory):
+		Test 1 - Ideal situation: OK
+
+	Authentication (2 - mandatory):
+		Test 2 - Wrong confirmation: OK
+		Test 3 - Key is out or range: OK
+		Test 4 - Strange username: OK
+
+	Segmenting and merging (2 - mandatory):
+		Test 5 - Segmentation: OK
+		Test 6 - Merging: OK
+		Test 7 - Segmentation + merging: OK
+
+	Timeout checking (2 - mandatory):
+		Test 8 - Client confirmation is not sent: OK
+		Test 9 - Unfinished message: OK
+
+	Movement (2 - mandatory):
+		Test 10 - Constant obstacles 1: OK
+		Test 11 - Constant obstacles 2: OK
+		Test 12 - Constant obstacles 3: OK
+		Test 13 - Random obstacles: OK
+
+	Syntax errors (1):
+		Test 14 - Max length of username: OK
+		Test 15 - The key is not a number: OK
+		Test 16 - Space after confirmation: OK
+		Test 17 - Six digit confirmation: OK
+		Test 18 - Floating point coordinates: OK
+		Test 19 - Unexpected space: OK
+
+	Optimization (2):
+		Test 20 - Max length of username exceeded: OK
+		Test 21 - Max length of secret exceeded: OK
+		Test 22 - Max length of confirmation exceeded: OK
+
+	Recharging (3):
+		Test 23 - After username: OK
+		Test 24 - After username with expiration: OK
+		Test 25 - Every five moves: OK
+		Test 26 - Random intervals: OK
+		Test 27 - Logic error: OK
+
+	Multithreading (1):
+		Test 28 - Constant obstacles 1 - three threads: OK
+
+	Everything random (1):
+		Test 29 - Fully random: OK
+
+	The final test (2):
+		Test 30 - Fully random - three threads: OK
+
+	Passed tests: 30 out of 30
+
+	Mandatory part is completed.
+
+	Tester version: 10
+
+	Total score is 20 out of 20.
+
+	Congratulations! Now you can chill out:
+
+	https://www.youtube.com/watch?v=APj2ArUy6v4
+
